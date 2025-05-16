@@ -1,7 +1,9 @@
 {
   "dependencies": {
     "storage1": {
-      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/azuresymbolserverabd6",
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('serviceConnectorResourceGroupName')]/providers/Microsoft.Web/sites/azuresymbolserver/providers/Microsoft.ServiceLinker/linkers/AzureWebJobsStorage_24C91D30BC, /subscriptions/4d36f33f-1294-49f8-afe8-19f3f1e53525/resourcegroups/workflow-assets/providers/Microsoft.Web/sites/azuresymbolserver/providers/Microsoft.ServiceLinker/linkers/AzureWebJobsStorage_7D5E348A73",
+      "secretStore": null,
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/workflowassetsstorage",
       "type": "storage.azure",
       "connectionId": "AzureWebJobsStorage"
     }
